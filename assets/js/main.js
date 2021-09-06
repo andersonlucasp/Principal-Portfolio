@@ -5,22 +5,22 @@ const navClose = document.getElementById('nav-close');
 
 // Menu Show
 // Validate if constat exists 
-if(navToggle){
-    navToggle.addEventListener('click', function(){
+if (navToggle) {
+    navToggle.addEventListener('click', function () {
         navMenu.classList.add('show-menu');
     });
 }
 // Menu Hidden 
 // Validate if constant exists 
-if(navClose){
-    navClose.addEventListener('click', function(){
+if (navClose) {
+    navClose.addEventListener('click', function () {
         navMenu.classList.remove('show-menu');
     });
 }
 // Remove menu mobile 
 const navLink = document.querySelectorAll('.nav__link');
 
-function linkAction(){
+function linkAction() {
     const navMenu = document.getElementById('nav-menu');
     // When we click on each nav__link, we remove the show-menu class 
     navMenu.classList.remove('show-menu');
@@ -32,13 +32,13 @@ navLink.forEach(n => n.addEventListener('click', linkAction));
 const skillsContent = document.getElementsByClassName('skills__content');
 const skillsHeader = document.querySelectorAll('.skills__header');
 
-function toggleSkills() { 
+function toggleSkills() {
     let itemClass = this.parentNode.className;
 
     for (i = 0; i < skillsContent.length; i++) {
         skillsContent[i].className = 'skills__content skills__close';
     }
-    if(itemClass === 'skills__content skills__close') {
+    if (itemClass === 'skills__content skills__close') {
         this.parentNode.className = 'skills__content skills__open'
     }
 }
@@ -58,7 +58,7 @@ tabs.forEach(tab => {
             tabsContent.classList.remove('qualification__active');
         })
         target.classList.add('qualification__active');
-        
+
         tabs.forEach(tab => {
             tab.classList.remove('qualification__active');
         })
@@ -70,7 +70,7 @@ const modalViews = document.querySelectorAll('.services__modal');
 const modalBtns = document.querySelectorAll('.services__button');
 const modalCloses = document.querySelectorAll('.services__modal-close');
 
-let modal = function(modalClick) {
+let modal = function (modalClick) {
     modalViews[modalClick].classList.add('active-modal');
 }
 
@@ -102,7 +102,7 @@ let swiper = new Swiper('.portfolio__container', {
         clickable: true,
     },
 });
-// Testimonial 
+// Testimonial
 
 // Scroll Section Active Link 
 
