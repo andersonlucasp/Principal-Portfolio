@@ -3,7 +3,7 @@ Lucas Portfolio
 </h1>
 
 <br>
-  <img src="assets/img/logo-readme.jpg" alt="Lucas - Portfolio" width="600">
+  <img src="assets/img/logo-readme.jpg" alt="Lucas - Portfolio" width="800">
 <br>
 
 <p align="center">Responsive Portfolio Website Using HTML, CSS and JavaScript. With a beautiful user interface. It contains a Header, Home, About, Skills, Qualification, Services, Portfolio, Project in mind, Testimonial, Contact, Footer and the button to change the theme to light or dark mode.</p>
