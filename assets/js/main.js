@@ -6,14 +6,14 @@ const navClose = document.getElementById('nav-close');
 // Menu Show
 // Validate if constat exists 
 if (navToggle) {
-    navToggle.addEventListener('click', function () {
+    navToggle.addEventListener('click', () => {
         navMenu.classList.add('show-menu');
     });
 }
 // Menu Hidden 
 // Validate if constant exists 
 if (navClose) {
-    navClose.addEventListener('click', function () {
+    navClose.addEventListener('click', () => {
         navMenu.classList.remove('show-menu');
     });
 }
