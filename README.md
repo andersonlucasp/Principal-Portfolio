@@ -39,8 +39,8 @@ You just need to access this [link](https://andersonlucasp.github.io/Principal-P
 
 [//]: # (Add your gifs/images here:)
 <div>
-  <img src="assets/img/gif1.gif" alt="demo" width="600">
-  <img src="assets/img/gif2.gif" alt="demo" width="600">
+  <img src="assets/img/gif1.gif" alt="demo" width="1000">
+  <img src="assets/img/gif2.gif" alt="demo" width="1000">
 </div>
 
 <hr />
